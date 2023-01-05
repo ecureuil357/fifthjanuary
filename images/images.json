@@ -1,0 +1,42 @@
+[
+    {
+      "name": "microdnf",
+      "container": "redhat",
+      "namespace": "redhat",
+      "repo": "ubi8-minimal",
+      "release_tag": "8.7",
+      "patch_command": "microdnf update"
+    },
+    {
+      "name": "microdnf",
+      "container": "redhat",
+      "namespace": "redhat",
+      "repo": "ubi8-minimal",
+      "release_tag": "8.6",
+      "patch_command": "microdnf update"
+    },
+    {
+      "name": "microdnf",
+      "container": "redhat",
+      "namespace": "redhat",
+      "repo": "ubi8-minimal",
+      "release_tag": "8.5",
+      "patch_command": "microdnf update"
+    },
+    {
+      "name": "yum",
+      "container": "redhat",
+      "namespace": "redhat",
+      "repo": "ubi8",
+      "release_tag": "8.6",
+      "patch_command": "yum update"
+    },
+    {
+      "name": "yum",
+      "container": "redhat",
+      "namespace": "redhat",
+      "repo": "ubi8",
+      "release_tag": "8.5",
+      "patch_command": "yum update"
+    }
+]  
